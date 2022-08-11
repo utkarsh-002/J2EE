@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hospital</title>
+</head>
+<body>
+<form action="input" method="get">
+<select name="opt">
+<option>Insert</option>
+<option>Delete</option>
+</select>
+If Want to delete then only enter ID<br>
+id:<input type="text" name="id">
+name:<input type="text" name="name">
+age:<input type="text" name="age">
+date:<input type="text" name="date">
+cause:<input type="text" name="cause">
+doctor:<input type="text" name="doctor">
+<input type=submit>
+</form>
+</body>
+</html>

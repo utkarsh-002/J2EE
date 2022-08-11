@@ -1,0 +1,11 @@
+<web-app>
+<servlet>
+<servlet-name>adb</servlet-name>
+<servlet-class>com.retur.ITReturns</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>adb</servlet-name>
+<url-mapping>ITReturn</url-mapping>
+</servlet-mapping>
+</web-app>

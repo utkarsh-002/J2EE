@@ -1,0 +1,14 @@
+package thread;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		GetNumber t1 = new GetNumber();
+		GetVowel t2 = new GetVowel();
+		
+		t1.start();
+		t2.start();
+
+	}
+
+}
